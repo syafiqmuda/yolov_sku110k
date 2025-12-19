@@ -1,9 +1,4 @@
-import os
-
-os.environ['ULTRALYTICS_CACHE_DIR'] = '/opt/dlami/nvme/.ultralytics'
-
 from ultralytics import YOLO, checks, hub
-
 checks()
 
 hub.login('40815389e96288255fd1121f17b108fbf9cedc7421')
