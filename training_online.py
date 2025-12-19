@@ -1,5 +1,5 @@
 import os
-from ultralytics import hub, checks
+from ultralytics import YOLO, hub, checks
 
 # Step 1: Use NVMe for downloads and cache
 os.environ['ULTRALYTICS_CACHE_DIR'] = '/opt/dlami/nvme/ultralytics_cache'
