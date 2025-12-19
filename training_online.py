@@ -1,4 +1,7 @@
 from ultralytics import YOLO, checks, hub
+import os
+os.environ['ULTRALYTICS_CACHE_DIR'] = '/opt/dlami/nvme/ultralytics_cache'
+
 checks()
 
 hub.login('40815389e96288255fd1121f17b108fbf9cedc7421')
